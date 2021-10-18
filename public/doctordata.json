@@ -41,10 +41,34 @@
     },
     {
         "id": 6,
+        "category": "Endocrinologists",
+        "name": "Ashley Willson",
+        "info": "For your child whitest teeths",
+        "description": "Vivamus sapien ligula, tempus ac ipsum ac, mattis luctus magna.  Proin consequat, at commodo.",
+        "img": "https://i.ibb.co/WxVD529/doc-6.png"
+    },
+    {
+        "id": 7,
+        "category": "Endocrinologists",
+        "name": "Ashley Willson",
+        "info": "For your child whitest teeths",
+        "description": "Vivamus sapien ligula, tempus ac ipsum ac, mattis luctus magna.  Proin consequat, at commodo.",
+        "img": "https://i.ibb.co/WxVD529/doc-6.png"
+    },
+    {
+        "id": 8,
+        "category": "Endocrinologists",
+        "name": "Ashley Willson",
+        "info": "For your child whitest teeths",
+        "description": "Vivamus sapien ligula, tempus ac ipsum ac, mattis luctus magna.  Proin consequat, at commodo.",
+        "img": "https://i.ibb.co/WxVD529/doc-6.png"
+    },
+    {
+        "id": 9,
         "category": "specilized doctor",
         "name": "Gabriela Beckett",
         "info": "For your child whitest teeths",
-        "description": "Proin consequat, at commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "description": "Proin consequat, at commodo. Lorem ipsum dolor sit amet, consectetur doctor adipiscing elit.",
         "img": "https://i.ibb.co/F4W4Yk3/doc-7.png"
     }
 ]

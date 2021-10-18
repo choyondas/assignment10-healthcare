@@ -1,0 +1,36 @@
+.footer-back{
+    background-color: #1d1f27;
+    padding: 50px;
+    color: white;
+}
+.inside-footer{
+    padding: 10px;
+}
+.recent{
+    display: flex;
+   margin: 10px;
+   align-items: center;
+
+}
+.logo-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.small-name{
+    font-size: 10px;
+}
+.footer-div{
+    width: 75%;
+    margin: auto;
+}
+.copy-right{
+    background-color:#2e3037 ;
+    color:white;
+    line-height: 40px;
+    margin-bottom: 0px;
+    
+}
+.inside-copy{
+    width: 75%;
+    margin: auto;
+}

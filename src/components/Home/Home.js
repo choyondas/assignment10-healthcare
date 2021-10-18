@@ -1,6 +1,8 @@
 import React from 'react';
 import Banner from './Banner/Banner';
 import Nav from './Banner/Nav';
+import Doctor from './Doctor/Doctor';
+
 
 import Information from './Information/Information';
 import Services from './Services/Services';
@@ -18,6 +20,7 @@ const Home = () => {
             <Services></Services>
             <Time></Time>
             <Team></Team>
+            <Doctor></Doctor>
 
         </div>
     );
