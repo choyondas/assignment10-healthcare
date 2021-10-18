@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "category": "DENTIST",
+        "info": "For your child whitest teeths",
+        "description": "Praesent convallis tortor et enim laoreet, vel consectetur purus latoque penatibus et dis parturient.",
+        "img": "https://i.ibb.co/qpkV9nR/dentist-1.png"
+    },
+    {
+        "id": 2,
+        "category": "CARDIOLOGIST",
+        "info": "For your child whitest teeths",
+        "description": "Praesent convallis tortor et enim laoreet, vel consectetur purus latoque penatibus et dis parturient.",
+        "img": "https://i.ibb.co/nkfgqSL/cardiologist-1.png"
+    },
+    {
+        "id": 3,
+        "category": "CHIROPRACTOR",
+        "info": "For your child whitest teeths",
+        "description": "Praesent convallis tortor et enim laoreet, vel consectetur purus latoque penatibus et dis parturient.",
+        "img": "https://i.ibb.co/NZpFwqf/chiropractor-1.png"
+    },
+    {
+        "id": 4,
+        "category": "ORTHOPEDICS",
+        "info": "For your child whitest teeths",
+        "description": "Praesent convallis tortor et enim laoreet, vel consectetur purus latoque penatibus et dis parturient.",
+        "img": "https://i.ibb.co/LQBxXNv/ORTHOPEDICS-1.png"
+    },
+    {
+        "id": 5,
+        "category": "OBSTETRICS",
+        "info": "For your child whitest teeths",
+        "description": "Praesent convallis tortor et enim laoreet, vel consectetur purus latoque penatibus et dis parturient.",
+        "img": "https://i.ibb.co/Lz0XnBr/OBSTETRICS-1.png"
+    },
+    {
+        "id": 6,
+        "category": "EMERGENCY",
+        "info": "For your child whitest teeths",
+        "description": "Praesent convallis tortor et enim laoreet, vel consectetur purus latoque penatibus et dis parturient.",
+        "img": "https://i.ibb.co/gWbT9rk/EMERGENCY-1.png"
+    }
+]

@@ -1,0 +1,30 @@
+.team-container{
+    margin-top: 50px;
+    padding: 50px;
+    justify-content: center;
+    display: flex;
+    background-color: whitesmoke;
+    padding-bottom: 0px;
+    
+    
+}
+.team-title{
+    font-size: 60px;
+    color: #0cb8b6;
+}
+.more-info{
+    border: 2px solid #7ae3f3;
+    background-color: #9fe9f5;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 200px;
+}
+.more-info:hover{
+background-color: rgb(0, 213, 241);
+color:black;
+}
+.find{
+    margin-top: -15px;
+}
