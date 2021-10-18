@@ -17,20 +17,20 @@ const Information = () => {
                 <h4>Insurance partners</h4>
                 <p>Praesent cursus ligula elit, vitae ullamcorper felis sodales non. Suspendisse ut hendrerit.</p>
                 <button className='btn-info'>READ MORE</button>
-                <button><span>Resume</span></button>
+
 
             </div>
             <div className='item col-lg-2 col-md-4 col-md-6 item-4'>
                 <h4>Consult our doctors</h4>
                 <p>Select the doctor you prefer and book a visit with him or her in a matter of minutes.</p>
-                <button className='btn-info'> <li class="nav-item dropdown decoration-li">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <button className='btn-info'> <li className="nav-item dropdown decoration-li">
+                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         CHOOSE DOCTOR
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Sussie Wolff</a></li>
-                        <li><a class="dropdown-item" href="#">Ashley Wilson</a></li>
-                        <li><a class="dropdown-item" href="#">James Fargo</a></li>
+                    <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a className="dropdown-item" href="#">Sussie Wolff</a></li>
+                        <li><a className="dropdown-item" href="#">Ashley Wilson</a></li>
+                        <li><a className="dropdown-item" href="#">James Fargo</a></li>
                     </ul>
                 </li></button>
             </div>

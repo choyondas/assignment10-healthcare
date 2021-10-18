@@ -1,5 +1,7 @@
 import React from 'react';
-import logo from '../../../images/logo/logo.png'
+import { Link, NavLink } from 'react-router-dom';
+import logo from '../../../images/logo/logo.png';
+import './Nav.css'
 const Nav = () => {
     return (
         <div>
@@ -11,19 +13,22 @@ const Nav = () => {
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarResponsive">
-                            <ul className="navbar-nav ms-auto">
-                                <li className="nav-item active">
-                                    <a className="nav-link" href="#">Home</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="#">About</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="#">Services</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="#">Contact</a>
-                                </li>
+                            <ul className="navbar-nav ms-auto ">
+
+                                <NavLink activeStyle={{
+                                    fontWeight: "bold",
+                                    color: "#029d9b"
+                                }} className='nav' to="/home">Home</NavLink>
+
+
+                                <NavLink className='nav' to="/services">Services</NavLink>
+
+
+                                <NavLink className='nav' to="/about">About</NavLink>
+
+
+                                <NavLink className='nav' to="/contact">Contact</NavLink>
+
                             </ul>
                         </div>
                     </div>
