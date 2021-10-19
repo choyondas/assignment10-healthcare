@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { useEffect } from 'react/cjs/react.development';
+import React, { useEffect, useState } from 'react';
+// import { useEffect } from 'react/cjs/react.development';
 import './Doctor.css'
 const Doctor = () => {
     const [doctors, setDoctors] = useState([]);

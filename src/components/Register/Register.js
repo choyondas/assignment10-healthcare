@@ -1,6 +1,6 @@
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, updateProfile } from '@firebase/auth';
-import React from 'react';
-import { useState } from 'react/cjs/react.development';
+import React, { useState } from 'react';
+
 import useAuth from '../../hooks/useAuth';
 
 import './Register.css'
@@ -74,33 +74,33 @@ const Register = () => {
 
     return (
 
-        <div className='regis mx-5'>
+        <div className=' mx-5 form-div'>
             <form onSubmit={handleRegistration}>
-                <h3 className='text-primary'>Please {isLogin ? 'Login' : 'Register'}</h3>
+                <h3 className='text-primary text-center pb-4'>Please {isLogin ? 'Login' : 'Register'}</h3>
                 {!isLogin && <div className="row mb-3">
                     <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Name</label>
                     <div className="col-sm-10">
-                        <input onBlur={handleNameChange} type="name" className="form-control" id="inputEmail3" required />
+                        <input onBlur={handleNameChange} type="name" className="form-control " id="inputEmail3" required />
                     </div>
                 </div>}
 
                 <div className="row mb-3">
                     <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Email</label>
                     <div className="col-sm-10">
-                        <input onBlur={handleEmailChange} type="email" className="form-control" id="inputEmail3" required />
+                        <input onBlur={handleEmailChange} type="email" className="form-control " id="inputEmail3" required />
                     </div>
                 </div>
                 <div className="row mb-3">
                     <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Password</label>
                     <div className="col-sm-10">
-                        <input onBlur={handlePasswordChange} type="password" className="form-control" id="inputPassword3" required />
+                        <input onBlur={handlePasswordChange} type="password" className="form-control " id="inputPassword3 " required />
                     </div>
                 </div>
                 <div className="row mb-3">
                     <div className="col-sm-10 offset-sm-2">
                         <div className="form-check">
-                            <input onChange={toggleLogin} className="form-check-input" type="checkbox" id="gridCheck1" />
-                            <label className="form-check-label" for="gridCheck1">
+                            <input onChange={toggleLogin} className="form-check-input " type="checkbox" id="gridCheck1" />
+                            <label className="form-check-label " for="gridCheck1">
                                 Already Registered?
                             </label>
                         </div>
@@ -108,12 +108,14 @@ const Register = () => {
                 </div>
 
                 <div className="row mb-3 text-danger">{error}</div>
-                <button type="submit" className="btn btn-primary">{isLogin ? 'Login' : 'Register'}</button>
+                <button type="submit" className="btn btn-primary text-center">{isLogin ? 'Login' : 'Register'}</button>
             </form>
+
             <br /><br /><br />
             ---------------------------
             <br />
-            <button onClick={signInUsingGoogle}>google Sign In</button>
+            <button onClick={signInUsingGoogle} className='btn-primary mb-3 btn-google' >google Sign In</button>
+
         </div>
     );
 };

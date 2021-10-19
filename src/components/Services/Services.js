@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+
 import "./Services.css"
 const Services = () => {
     const [services, setServices] = useState([]);
@@ -9,7 +9,7 @@ const Services = () => {
             .then(data => setServices(data))
     }, [])
     console.log(services);
-    const { id, category } = services;
+
     return (
 
         <div className='pt-5 services-section row'>
@@ -35,9 +35,9 @@ const Services = () => {
                         {/* <div className='detaisl-btn'>
                             <a href="#">Details</a>
                         </div> */}
-                        <Link to={`/details/${services.id}`}>
-                            <button className='btn-btn-warning'>Details{category}</button>
-                        </Link>
+                        <div className='detaisl-btn'>
+                            <a href="#">Details</a>
+                        </div>
                     </div>
 
 

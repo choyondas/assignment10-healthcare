@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 
 import logo from '../../../images/logo/logo.png';
@@ -34,8 +34,8 @@ const Nav = () => {
                                 <NavLink className='nav' to="/contact">Contact</NavLink>
                                 <NavLink className='nav' to="/login">Login</NavLink>
 
-                                <span>{user.displayName} </span>
-                                {user?.email && <button onClick={logout} >log out</button>}
+                                <span className='nav text-primary'>{user.displayName} </span>
+                                {user?.email && <button className='btn-primary btn-out' onClick={logout} ><span className='nav-out'>log out</span></button>}
                             </ul>
                         </div>
                     </div>
