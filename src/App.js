@@ -11,6 +11,9 @@ import Error from './components/Error/Error';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import AuthProvider from './context/AuthProvider';
+import Details from './components/Details/Details/Details';
+
+
 
 
 function App() {
@@ -30,26 +33,30 @@ function App() {
 
             </Route>
 
-            <Route exact path='/services'>
+            <Route path='/services'>
               <Services></Services>
 
             </Route>
-            <Route exact path='/about'>
+            <Route path='/about'>
               <About></About>
 
             </Route>
-            <Route exact path='/contact'>
+            <Route path='/contact'>
               <Contact></Contact>
 
             </Route>
-            <Route exact path='/login'>
+            <Route path='/login'>
               <Login></Login>
 
             </Route>
-            <Route exact path='/register'>
+            <Route path='/register'>
               <Register></Register>
 
             </Route>
+            <Route path='/details/:serviceId'>
+              <Details></Details>
+            </Route>
+
 
             <Route path='*'>
               <Error></Error>

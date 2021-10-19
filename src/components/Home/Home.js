@@ -7,6 +7,7 @@ import Doctor from './Doctor/Doctor';
 import Information from './Information/Information';
 import Services from './Services/Services';
 import Team from './Team/Team';
+import Ticket from './Ticket/Ticket';
 import Time from './Time/Time';
 
 
@@ -14,11 +15,13 @@ import Time from './Time/Time';
 const Home = () => {
     return (
         <div>
-            <Nav></Nav>
+
             <Banner></Banner>
             <Information></Information>
             <Services></Services>
+
             <Time></Time>
+            <Ticket></Ticket>
             <Team></Team>
             <Doctor></Doctor>
 

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import "./Services.css"
 const Services = () => {
     const [services, setServices] = useState([]);
@@ -8,6 +9,7 @@ const Services = () => {
             .then(data => setServices(data))
     }, [])
     console.log(services);
+    const { id, category } = services;
     return (
 
         <div className='pt-5 services-section row'>
@@ -30,9 +32,12 @@ const Services = () => {
                         <h3>{service.category}</h3>
                         <p>{service.description}</p>
                         {/* <button className='btn-details'>Details</button> */}
-                        <div className='detaisl-btn'>
+                        {/* <div className='detaisl-btn'>
                             <a href="#">Details</a>
-                        </div>
+                        </div> */}
+                        <Link to={`/details/${services.id}`}>
+                            <button className='btn-btn-warning'>Details{category}</button>
+                        </Link>
                     </div>
 
 
