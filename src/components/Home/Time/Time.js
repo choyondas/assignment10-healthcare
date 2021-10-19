@@ -3,7 +3,7 @@ import img from "../../../images/banner/hour.png"
 import './Time.css'
 const Time = () => {
     return (
-        <div className='container container-time'>
+        <div className='container container-time mb-5'>
             <div className='time row'>
                 <div className='col-lg-6 col-md-6 col-12'>
                     <h3>WORKING HOURS</h3>

@@ -35,7 +35,9 @@ const Services = () => {
                         <h3>{service.category}</h3>
                         <p>{service.description}</p>
 
-                        <Link to={`/details/${service.id}`}> Details</Link>
+                        <button className='btn-primary text-white div-btn'>
+                            <Link className='btn-deta' to={`/details/${service.id}`}> Details</Link>
+                        </button>
 
                         {/* <div className='detaisl-btn'>
                             <a href="#">Details</a>

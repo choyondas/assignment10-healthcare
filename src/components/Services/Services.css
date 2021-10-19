@@ -3,6 +3,21 @@
     margin: auto;
     
 }
+.btn-deta{
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+.div-btn{
+  padding: 10px;
+  border-radius: 6px;
+}
+.div-btn:hover{
+  background-color: white;
+  color:blue;
+}
 
 .icon-style{
     background-color:#0cb8b6 ;
@@ -19,10 +34,11 @@
     left: 45%;
 }
 .service-div:hover{
-box-shadow: 3px 3px 30px gray;
+box-shadow: 3px 3px 30px rgb(185, 182, 182);
 }
 .service-div{
     border-radius: 10px;
+    border: 1px solid white;
 }
 
 .detaisl-btn a {
