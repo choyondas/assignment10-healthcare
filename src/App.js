@@ -13,6 +13,7 @@ import Register from './components/Register/Register';
 import AuthProvider from './context/AuthProvider';
 import Details from './components/Details/Details/Details';
 import More from './components/More/More';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 
 
@@ -61,9 +62,9 @@ function App() {
             </Route> */}
 
 
-            <Route path='/details/:serviceId'>
+            <PrivateRoute path='/details/:serviceId'>
               <Details></Details>
-            </Route>
+            </PrivateRoute>
 
 
             <Route path='*'>
