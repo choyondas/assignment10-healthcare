@@ -12,6 +12,7 @@ import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import AuthProvider from './context/AuthProvider';
 import Details from './components/Details/Details/Details';
+import More from './components/More/More';
 
 
 
@@ -53,6 +54,13 @@ function App() {
               <Register></Register>
 
             </Route>
+
+
+            {/* <Route path='/home/:more'>
+              <More></More>
+            </Route> */}
+
+
             <Route path='/details/:serviceId'>
               <Details></Details>
             </Route>

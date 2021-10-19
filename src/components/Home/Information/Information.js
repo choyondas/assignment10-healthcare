@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Information.css'
 const Information = () => {
     return (
@@ -6,7 +7,9 @@ const Information = () => {
             <div className='item col-lg-2 col-md-4 col-md-6 item-1'>
                 <h4>Professional staff</h4>
                 <p>All of our stuff are professional and experienced more than 5 years. We make sure good survices</p>
-                <button className='btn-info'>READ MORE</button>
+                <Link to='/more' >
+                    <button className='btn-info'>READ MORE</button>
+                </Link>
             </div>
             <div className='item col-lg-2 col-md-4 col-md-6 item-2'>
                 <h4>Affordable prices</h4>

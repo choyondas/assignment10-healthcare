@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import "./Services.css"
 const Services = () => {
@@ -10,6 +11,7 @@ const Services = () => {
     }, [])
     console.log(services);
 
+
     return (
 
         <div className='pt-5 services-section row'>
@@ -20,6 +22,7 @@ const Services = () => {
                 services.map(service => <div
                     className="col-lg-4 col-md-6  service-item"
                     key={service.id}
+
                 >
                     <div className="mb-5 service-div p-5">
                         <img className='img-fluid' src={service.img} alt="" />
@@ -31,13 +34,15 @@ const Services = () => {
                         </p>
                         <h3>{service.category}</h3>
                         <p>{service.description}</p>
-                        {/* <button className='btn-details'>Details</button> */}
+
+                        <Link to={`/details/${service.id}`}> Details</Link>
+
                         {/* <div className='detaisl-btn'>
                             <a href="#">Details</a>
                         </div> */}
-                        <div className='detaisl-btn'>
-                            <a href="#">Details</a>
-                        </div>
+
+
+
                     </div>
 
 

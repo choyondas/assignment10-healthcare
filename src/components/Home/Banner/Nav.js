@@ -7,7 +7,7 @@ import './Nav.css'
 const Nav = () => {
     const { user, logout } = useAuth();
     return (
-        <div>
+        <div >
             <div>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
                     <div className="container">
