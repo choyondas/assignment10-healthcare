@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import useAuth from '../../../hooks/useAuth';
+
 import logo from '../../../images/logo/logo.png';
 import './Nav.css'
 const Nav = () => {
+    const { user, logout } = useAuth();
     return (
         <div>
             <div>
@@ -28,7 +31,10 @@ const Nav = () => {
 
 
                                 <NavLink className='nav' to="/contact">Contact</NavLink>
+                                <NavLink className='nav' to="/login">Login</NavLink>
 
+                                <span>{user.displayName} </span>
+                                {user?.email && <button onClick={logout} >log out</button>}
                             </ul>
                         </div>
                     </div>
