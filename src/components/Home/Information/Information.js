@@ -14,12 +14,21 @@ const Information = () => {
             <div className='item col-lg-2 col-md-4 col-md-6 item-2'>
                 <h4>Affordable prices</h4>
                 <p>Aliquam sit amet porttitor ex, sit amet pellentesque nibh. Praesent viverra dui augue.</p>
-                <button className='btn-info'>VIEW PRICELIST</button>
+
+
+                <Link to='/more' >
+                    <button className='btn-info'>VIEW PRICELIST</button>
+                </Link>
             </div>
             <div className='item col-lg-2 col-md-4 col-md-6 item-3'>
                 <h4>Insurance partners</h4>
                 <p>Praesent cursus ligula elit, vitae ullamcorper felis sodales non. Suspendisse ut hendrerit.</p>
-                <button className='btn-info'>READ MORE</button>
+
+
+                <Link to='/more' >
+                    <button className='btn-info'>READ MORE</button>
+                </Link>
+
 
 
             </div>

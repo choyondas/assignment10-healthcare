@@ -3,6 +3,12 @@
     margin: auto;
     
 }
+.ser{
+  font-size: 50px;
+  padding: 15px;
+  font-weight: bold;
+  color: white;
+}
 .btn-deta{
   font-size: 18px;
   color: white;

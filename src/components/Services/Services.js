@@ -15,7 +15,7 @@ const Services = () => {
     return (
 
         <div className='pt-5 services-section row'>
-            <h1 className='mx-auto'>SERVICES</h1>
+            <h1 className='mx-auto ser'>SERVICES</h1>
 
             {
 
