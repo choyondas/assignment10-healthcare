@@ -57,9 +57,9 @@ function App() {
             </Route>
 
 
-            {/* <Route path='/home/:more'>
+            <Route path='/more'>
               <More></More>
-            </Route> */}
+            </Route>
 
 
             <PrivateRoute path='/details/:serviceId'>
