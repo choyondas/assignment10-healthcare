@@ -1,6 +1,6 @@
 # HEALTH CARE HOSPITAL
 
-Click [here](quora.com/profile/Ashish-Kulkarni-100) to go to LIVE SITE. 
+Click [here](https://clinic-authentication.web.app/) to go to LIVE SITE. 
 
 ### Description:
 - This is an Smart Hospital.
