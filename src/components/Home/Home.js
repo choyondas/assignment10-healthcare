@@ -8,7 +8,7 @@ import Doctor from './Doctor/Doctor';
 import Information from './Information/Information';
 
 import Team from './Team/Team';
-import Ticket from './Ticket/Ticket';
+
 import Time from './Time/Time';
 
 
@@ -22,7 +22,7 @@ const Home = () => {
             <Services></Services>
 
             <Time></Time>
-            <Ticket></Ticket>
+
             <Team></Team>
             <Doctor></Doctor>
 

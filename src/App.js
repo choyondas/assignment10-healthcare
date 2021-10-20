@@ -19,6 +19,7 @@ import Doc from './components/Doc/Doc';
 
 
 
+
 function App() {
   return (
     <div className="">
@@ -69,6 +70,7 @@ function App() {
             <PrivateRoute path='/doctor/:doctorId'>
               <Doc></Doc>
             </PrivateRoute>
+
 
 
             <Route path='*'>
