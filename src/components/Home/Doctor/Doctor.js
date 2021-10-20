@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-// import { useEffect } from 'react/cjs/react.development';
+
 import './Doctor.css'
 const Doctor = () => {
     const [doctors, setDoctors] = useState([]);

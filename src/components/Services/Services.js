@@ -39,10 +39,6 @@ const Services = () => {
                             <Link className='btn-deta' to={`/details/${service.id}`}> Details</Link>
                         </button>
 
-                        {/* <div className='detaisl-btn'>
-                            <a href="#">Details</a>
-                        </div> */}
-
 
 
                     </div>
