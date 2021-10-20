@@ -13,7 +13,7 @@ const Nav = () => {
                     <div className="container">
                         <div className=' title'>
                             <a className="navbar-brand" href="#"><img className='img-fluid w-25' src={logo} alt="" /></a>
-                            <h2 className='txt-nav' >HEALTH <span className='head-nav'>CARE</span></h2>
+                            <h2 className='txt-nav' > HEALTH <span className='head-nav'>CARE</span></h2>
                         </div>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
