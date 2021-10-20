@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
+import { Link } from 'react-router-dom';
 
 import './Doc.css'
 
@@ -140,6 +141,9 @@ const Doc = () => {
 
 
                     </div>
+                </div>
+                <div className='text-center'>
+                    <Link to="/home"><button className='btn-primary m-4 text-center'>go home</button></Link>
                 </div>
             </div>
         </div>

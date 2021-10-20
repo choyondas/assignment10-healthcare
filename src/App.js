@@ -22,7 +22,7 @@ import Doc from './components/Doc/Doc';
 
 function App() {
   return (
-    <div className="">
+    <div >
 
       <AuthProvider>
         <BrowserRouter>
