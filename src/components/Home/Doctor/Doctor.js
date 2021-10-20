@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 // import { useEffect } from 'react/cjs/react.development';
 import './Doctor.css'
 const Doctor = () => {
@@ -28,6 +29,9 @@ const Doctor = () => {
                             <i className="fab fa-linkedin-in  icon-doctor"></i>
 
                         </div>
+                        <button className='btn-primary text-white div-btn'>
+                            <Link className='btn-deta' to={`/doctor/${doctor.id}`}> Contact</Link>
+                        </button>
                     </div>
 
 

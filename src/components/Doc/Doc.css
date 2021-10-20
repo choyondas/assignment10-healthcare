@@ -1,0 +1,44 @@
+.doc-head{
+    height: 150px;
+    background-color:#0cb8b6;
+    color:white;
+    padding-left: 50%;
+    padding-top: 20px;
+}
+.details-doctor{
+    margin-top: -40px;
+    background-color: white;
+    margin-right: 10px;
+}
+.back-deta{
+    background-color: rgb(241, 241, 241);
+    box-shadow: 3px 3px 20px gray;
+}
+.review-kid{
+    padding-top: 20px;
+    background-color:#14bfbd ;
+    color: white;
+    
+}
+.rev{
+    border: 2px solid white;
+    margin: 20px;
+    box-shadow: 4px 5px 50px white;
+    padding: 20px;
+
+}
+.img-kid{
+    border:5px solid white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+    
+}
+
+
+
+
+
+
+

@@ -14,6 +14,7 @@ import AuthProvider from './context/AuthProvider';
 import Details from './components/Details/Details/Details';
 import More from './components/More/More';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import Doc from './components/Doc/Doc';
 
 
 
@@ -64,6 +65,9 @@ function App() {
 
             <PrivateRoute path='/details/:serviceId'>
               <Details></Details>
+            </PrivateRoute>
+            <PrivateRoute path='/doctor/:doctorId'>
+              <Doc></Doc>
             </PrivateRoute>
 
 

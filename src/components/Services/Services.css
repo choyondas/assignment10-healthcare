@@ -8,6 +8,7 @@
   padding: 15px;
   font-weight: bold;
   color: white;
+  margin-top: 38px;
 }
 .btn-deta{
   font-size: 18px;
@@ -41,10 +42,14 @@
 }
 .service-div:hover{
 box-shadow: 3px 3px 30px rgb(185, 182, 182);
+background-color: #12c5c3;
+color:white ;
 }
 .service-div{
     border-radius: 10px;
     border: 1px solid white;
+    text-align: center;
+    color: white;
 }
 
 .detaisl-btn a {
