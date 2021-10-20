@@ -2,6 +2,7 @@ import React from 'react';
 import './Team.css'
 import img1 from '../../../images/doctor/team-1.png'
 import logo1 from '../../../images/logo/sig.png'
+import { Link } from 'react-router-dom';
 
 const Team = () => {
     return (
@@ -24,10 +25,10 @@ const Team = () => {
 
 
             </div>
-            <div className='text-center find'>
-                <button className='more-info'>FIND OUT MORE</button>
-            </div>
-
+            {/* <div className='text-center find'>
+                <Link to='./doctor'> <button className='more-info'>FIND OUT MORE</button></Link>
+            </div> */}
+            <br />
 
 
             <div className='doctor-section'></div>
