@@ -13,28 +13,30 @@ const Banner = () => {
                     <div class="carousel-item active">
                         <img className='banner-img' src="https://i.ibb.co/Pzqz7Zb/ban-1.png" class="d-block w-100" alt="..." />
                         <div class="carousel-caption d-none d-md-block">
-                            <div>
-                                <h1 className='banner-title'>THE <span className='title-span'>RIGHT </span> PEDIATRICIAN</h1>
-                                <p>We at Medicare are always fully focused on helping your child and you to overcame any hurdle, whether it's chicken pox or just a seasonal flue.</p>
-                            </div>
-                            <div className="small-info">
-
-                                <div className='advice'>
-                                    <div className='icon'>
-                                        <i class="fas fa-comment-medical"></i>
-                                    </div>
-                                    <div>
-                                        <h5>HEALTHY ADVICES</h5>
-                                        <p>Praesent convallis tortor et enim laoreet.</p>
-                                    </div>
+                            <div className='posi'>
+                                <div >
+                                    <h1 className='banner-title'>YOUR DESIRE <span className='title-span'>DESTINATION</span> </h1>
+                                    <p>We at Medicare are always fully focused on helping your child and you to overcame any hurdle, whether it's chicken pox or just a seasonal flue.</p>
                                 </div>
-                                <div className='advice'>
-                                    <div className='icon'>
-                                        <i class="fas fa-phone-volume"></i>
+                                <div className="small-info">
+
+                                    <div className='advice'>
+                                        <div className='icon'>
+                                            <i class="fas fa-comment-medical"></i>
+                                        </div>
+                                        <div>
+                                            <h5>HEALTHY ADVICES</h5>
+                                            <p>Praesent convallis tortor et enim laoreet.</p>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <h5>ALWAYS AVAILABLE</h5>
-                                        <p>We are here for your support. join us</p>
+                                    <div className='advice'>
+                                        <div className='icon'>
+                                            <i class="fas fa-phone-volume"></i>
+                                        </div>
+                                        <div>
+                                            <h5>ALWAYS AVAILABLE</h5>
+                                            <p>We are here for your support. join us</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -43,28 +45,30 @@ const Banner = () => {
                     <div class="carousel-item">
                         <img src="https://i.ibb.co/JvcrS85/ban-2.png" class="d-block w-100" alt="..." />
                         <div class="carousel-caption d-none d-md-block">
-                            <div>
-                                <h1 className='banner-title'>YOU AND YOUR <span className='title-span'>DOCTOR </span></h1>
-                                <p>We at Medicare are always fully focused on helping your child and you to overcame any hurdle, whether it's chicken pox or just a seasonal flue.</p>
-                            </div>
-                            <div className="small-info">
-
-                                <div className='advice'>
-                                    <div className='icon'>
-                                        <i class="fas fa-comment-medical"></i>
-                                    </div>
-                                    <div>
-                                        <h5>REGULAR CHECKUPS</h5>
-                                        <p>Praesent convallis tortor et enim laoreet.</p>
-                                    </div>
+                            <div className='posi'>
+                                <div>
+                                    <h1 className='banner-title'>YOU AND YOUR <span className='title-span'>DOCTOR </span></h1>
+                                    <p>We at Medicare are always fully focused on helping your child and you to overcame any hurdle, whether it's chicken pox or just a seasonal flue.</p>
                                 </div>
-                                <div className='advice'>
-                                    <div className='icon'>
-                                        <i class="fas fa-phone-volume"></i>
+                                <div className="small-info">
+
+                                    <div className='advice'>
+                                        <div className='icon'>
+                                            <i class="fas fa-comment-medical"></i>
+                                        </div>
+                                        <div>
+                                            <h5>REGULAR CHECKUPS</h5>
+                                            <p>Praesent convallis tortor et enim laoreet.</p>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <h5>ALWAYS AVAILABLE</h5>
-                                        <p>Praesent convallis tortor et enim laoreet.</p>
+                                    <div className='advice'>
+                                        <div className='icon'>
+                                            <i class="fas fa-phone-volume"></i>
+                                        </div>
+                                        <div>
+                                            <h5>ALWAYS AVAILABLE</h5>
+                                            <p>Praesent convallis tortor et enim laoreet.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -73,32 +77,36 @@ const Banner = () => {
                     <div class="carousel-item">
                         <img src="https://i.ibb.co/k2ym1SV/ban-3.png" class="d-block w-100" alt="..." />
                         <div class="carousel-caption d-none d-md-block">
-                            <div>
-                                <h1 className='banner-title'>THE <span className='title-span'>RIGHT </span> PEDIATRICIAN</h1>
-                                <p>We at Medicare are always fully focused on helping your child and you to overcame any hurdle, whether it's chicken pox or just a seasonal flue.</p>
-                            </div>
-                            <div className="small-info">
+                            <div className='posi'>
+                                <div>
+                                    <h1 className='banner-title'>THE <span className='title-span'>RIGHT </span> PEDIATRICIAN</h1>
+                                    <p>We at Medicare are always fully focused on helping your child and you to overcame any hurdle, whether it's chicken pox or just a seasonal flue.</p>
+                                </div>
+                                <div className="small-info">
 
-                                <div className='advice'>
-                                    <div className='icon'>
-                                        <i class="fas fa-comment-medical"></i>
+                                    <div className='advice'>
+                                        <div className='icon'>
+                                            <i class="fas fa-comment-medical"></i>
+                                        </div>
+                                        <div>
+                                            <h5>HEALTHY ADVICES</h5>
+                                            <p>Praesent convallis tortor et enim laoreet.</p>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <h5>HEALTHY ADVICES</h5>
-                                        <p>Praesent convallis tortor et enim laoreet.</p>
-                                    </div>
-                                </div>
-                                <div className='advice'>
-                                    <div className='icon'>
-                                        <i class="fas fa-phone-volume"></i>
-                                    </div>
-                                    <div>
-                                        <h5>HEALTHY ADVICES</h5>
-                                        <p>Praesent convallis tortor et enim laoreet.</p>
+                                    <div className='advice'>
+                                        <div className='icon'>
+                                            <i class="fas fa-phone-volume"></i>
+                                        </div>
+                                        <div>
+                                            <h5>HEALTHY ADVICES</h5>
+                                            <p>Praesent convallis tortor et enim laoreet.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
+
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
